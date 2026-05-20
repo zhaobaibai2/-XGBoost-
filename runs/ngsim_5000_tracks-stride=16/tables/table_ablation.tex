@@ -1,0 +1,12 @@
+\begin{tabularx}{\textwidth}{lccX}
+\toprule
+特征组合 & ADE/m & FDE/m & 说明 \\ 
+\midrule
+Kinematics & 2.225 & 5.472 & 基础运动学输入 \\ 
++ delay embedding & 2.221 & 5.464 & 加入历史状态的延迟嵌入结构 \\ 
++ Lyapunov proxy & 2.225 & 5.469 & 加入有限窗口扰动发散与 jerk 统计 \\ 
++ RQA & 2.226 & 5.470 & 加入递归率、确定性和对角线长度 \\ 
++ entropy/DFA & 2.230 & 5.476 & 加入样本熵、多尺度样本熵和 DFA/Hurst 代理 \\ 
++ graph interaction & 2.226 & 5.461 & 加入邻域图密度、车头间距和相对速度 \\ 
+\bottomrule
+\end{tabularx}

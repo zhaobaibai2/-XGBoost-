@@ -1,0 +1,22 @@
+{
+  "data_source": "real_or_external_ngsim_csv",
+  "n_rows": 2457668,
+  "n_vehicles": 3000,
+  "n_samples": 42000,
+  "n_train": 29400,
+  "n_val": 6300,
+  "n_test": 6300,
+  "history_seconds": 3.0,
+  "prediction_seconds": 5.0,
+  "sampling_hz": 10,
+  "split_strategy": "Vehicle_ID split when possible; otherwise sample split",
+  "seed": 7,
+  "xgboost_regressor_used_device": "cuda",
+  "xgboost_cuda_fallback_note": "",
+  "ridge_nonlinear_validation_blend_alpha": 0.5,
+  "xgboost_nonlinear_validation_blend_alpha": 0.05,
+  "ridge_lane_probability_blend_alpha": 0.1,
+  "xgboost_lane_probability_blend_alpha": 0.45,
+  "ngsim_official_doi": "10.21949/1504477",
+  "ngsim_official_api_metadata": "https://data.transportation.gov/api/views/8ect-6jqj"
+}

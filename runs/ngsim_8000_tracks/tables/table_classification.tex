@@ -1,0 +1,14 @@
+\begin{tabular}{lcccccc}
+\toprule
+方法 & 阈值 & Accuracy & Precision & Recall & F1 & AUC \\ 
+\midrule
+CV & 0.82 & 0.900 & 0.234 & 0.344 & 0.279 & 0.755 \\ 
+CA & 0.82 & 0.900 & 0.234 & 0.344 & 0.279 & 0.755 \\ 
+Ridge & 0.62 & 0.881 & 0.242 & 0.519 & 0.330 & 0.808 \\ 
+Ridge-nonlinear-only & 0.68 & 0.893 & 0.227 & 0.377 & 0.283 & 0.760 \\ 
+Ridge+nonlinear & 0.62 & 0.882 & 0.243 & 0.522 & 0.332 & 0.809 \\ 
+XGBoost & 0.75 & 0.927 & 0.388 & 0.522 & 0.445 & 0.865 \\ 
+XGBoost-nonlinear-only & 0.80 & 0.932 & 0.392 & 0.374 & 0.383 & 0.840 \\ 
+XGBoost+nonlinear & 0.76 & 0.929 & 0.396 & 0.496 & 0.441 & 0.866 \\ 
+\bottomrule
+\end{tabular}

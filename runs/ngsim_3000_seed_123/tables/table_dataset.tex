@@ -1,0 +1,10 @@
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+公开数据源 & USDOT ITS DataHub / data.transportation.gov: Next Generation Simulation (NGSIM) Vehicle Trajectories and Supporting Data, DOI: 10.21949/1504477 \\ 
+默认实验数据 & NGSIM 字段兼容非线性基准；3000 辆车，2427298 条记录，42000 个监督样本 \\ 
+采样频率 & 10 Hz；历史窗口 3.0 s，预测时域 5.0 s \\ 
+字段 & Vehicle\_ID, Frame\_ID, Global\_Time, Local\_X, Local\_Y, v\_Vel, v\_Acc, Lane\_ID, Preceding, Following, Space\_Headway \\ 
+数据划分 & 按 Vehicle\_ID 划分：训练 29400，验证 6300，测试 6300 个样本 \\ 
+真实数据接口 & code/download\_ngsim\_sample.py 可从 Socrata API 下载部分 NGSIM；code/run\_experiments.py --input-csv 可替换为真实 CSV 并自动复现图表 \\ 
+\bottomrule
+\end{tabularx}

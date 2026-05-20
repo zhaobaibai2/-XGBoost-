@@ -1,0 +1,11 @@
+\begin{tabular}{lccccc}
+\toprule
+方法 & ADE/m & FDE/m & RMSE-x/m & RMSE-y/m & Lane-change F1 \\ 
+\midrule
+CV & 2.452 & 5.961 & 1.207 & 4.021 & 0.299 \\ 
+Ridge & 2.192 & 5.422 & 0.618 & 3.648 & 0.318 \\ 
+Ridge+nonlinear & 2.189 & 5.407 & 0.620 & 3.617 & 0.330 \\ 
+XGBoost & 2.115 & 5.218 & 0.708 & 3.494 & 0.463 \\ 
+XGBoost+nonlinear & 2.113 & 5.214 & 0.705 & 3.490 & 0.487 \\ 
+\bottomrule
+\end{tabular}

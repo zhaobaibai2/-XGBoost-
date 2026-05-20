@@ -1,0 +1,13 @@
+
+# Files larger than 100MB
+data/raw/ngsim_clean_tracks.csv
+data/raw/ngsim_sample.csv
+data/generated/ngsim_compatible_benchmark.csv
+runs/ngsim_3000_seed_42/generated/ngsim_compatible_benchmark.csv
+runs/ngsim_5000_tracks-stride=16/generated/ngsim_compatible_benchmark.csv
+runs/ngsim_3000_tracks/generated/ngsim_compatible_benchmark.csv
+runs/ngsim_3000_seed_7/generated/ngsim_compatible_benchmark.csv
+runs/ngsim_5000_tracks/generated/ngsim_compatible_benchmark.csv
+runs/ngsim_3000_seed_123/generated/ngsim_compatible_benchmark.csv
+runs/ngsim_8000_tracks/data/generated/ngsim_compatible_benchmark.csv
+runs/ngsim_8000_tracks/generated/ngsim_compatible_benchmark.csv
